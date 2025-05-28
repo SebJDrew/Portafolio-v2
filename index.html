@@ -10,6 +10,11 @@
     <!-- Navbar -->
     <nav>
         <div class="logo">Portafolio</div>
+        <div class="language-selector">
+            <a href="index.html" class="language-link active" data-lang="es">Español</a>
+            <a href="english.html" class="language-link" data-lang="en">English</a>
+            <a href="francais.html" class="language-link" data-lang="fr">Français</a>
+        </div>
         <div class="hamburger" id="hamburger">
             <span></span>
             <span></span>
@@ -25,21 +30,15 @@
     <!-- Sección 1: Bienvenida -->
     <section id="home">
         <div class="slideshow">
-            <img src="Backgrounds/lagotiticaca.png" alt=Background 1" class="active">
-            <img src="Backgrounds/BG1.jpeg" alt="Background 2">
-            <img src="Backgrounds/BG2.jpeg" alt="Background 3">
-            <img src="Backgrounds/BG3.jpeg" alt="Background 4">
-            <img src="Backgrounds/BG4.jpeg" alt="Background 5">
-            <img src="Backgrounds/BG5.jpeg" alt="Background 5">
-            <img src="Backgrounds/BG6.jpeg" alt="Background 6">
+            <img src="Backgrounds/BGOF.jpeg" alt=Background 1" class="active">
         </div>
         <div class="overlay"></div>
         <div class="welcome-content">
             <h1>Sebastian Jimenez Drew</h1>
             <h2>Ingeniero en Innovación y Desarrollo</h2>        
             <div class="cv-buttons">
-                <button class="cv-btn">CV en Español</button>
-                <button class="cv-btn">CV in English</button>
+                <!-- <button class="cv-btn">CV en Español</button> -->
+                <a href="CV's/Resume_Sebastian_Jimenez_Drew.pdf" download class="cv-btn">Resume in English</a>
             </div>
         </div>
     </section>
@@ -51,7 +50,7 @@
         <div class="about-container">
             <div class="about-left">
                 <div class="about-photo">
-                    <img src="/Backgrounds/sebas.jpg" alt="Sebastian Jimenez Drew">
+                    <img src="/Backgrounds/sebas2.jpeg" alt="Sebastian Jimenez Drew">
                 </div>
                 <div class="profile-details">
                     <div class="profile-item">
@@ -114,43 +113,64 @@
                     <button class="tab-btn active" data-tab="vida">Mi Vida</button>
                     <button class="tab-btn" data-tab="aspiraciones">Aspiraciones</button>
                     <button class="tab-btn" data-tab="metas">Metas</button>
-                    <button class="tab-btn active" data-tab="estudios">Estudios</button>
+                    <button class="tab-btn" data-tab="estudios">Estudios</button>
                     <button class="tab-btn" data-tab="certificaciones">Certificaciones</button>
                 </div>
 
                 <div class="tab-content active" id="vida">
                     <h3>Mi Historia</h3>
-                    <p>Desde pequeño me encanataba imaginar como seria el futuro. Esa curiosidad me llevó a estudiar Ingeniería en Innovación y Desarrollo, y más adelante, a especializarme en inteligencia artificial y ciencia de datos.</p>
+                    <p>Desde pequeño me encantaba imaginar cómo sería el futuro. Esa curiosidad me llevó a estudiar Ingeniería en Innovación y Desarrollo, y más adelante, a especializarme en inteligencia artificial y ciencia de datos.</p>
                     <p>A lo largo de mi vida, he tenido la oportunidad de vivir en distintas ciudades como Monterrey y Nueva York, lo que me enseñó a adaptarme, conocer y apreciar nuevos idiomas, culturas y pensamientos</p>
-                    <p>He trabajado como Consultor Jr, Analista de datos y Project manager, liderando proyectos tanto técnicos como sociales, como EDUMAKERS, que buscaba generar soluciones inclusivas para la educación. Esta mezcla de tecnología y propósito me marcó profundamente.</p>
+                    <p>He trabajado como Consultor Jr, Analista de datos y Project manager, liderando proyectos tanto técnicos como sociales, como EDUMAKERS, que buscaban generar soluciones inclusivas para la educación. Esta mezcla de tecnología y propósito me marcó profundamente.</p>
                     
                     <div class="timeline">
                         <div class="timeline-item">
                             <div class="timeline-dot"></div>
                             <div class="timeline-content">
-                                <h4>2024 - Presente</h4>
+                                <h4>Ago 2023 – Presente</h4>
                                 <p>Global Consulting Group</p>
                             </div>
                         </div>
                         <div class="timeline-item">
                             <div class="timeline-dot"></div>
                             <div class="timeline-content">
-                                <h4>Feb - Mar 2023</h4>
+                                <h4>Jul - Dic 2024</h4>
+                                <p>Part time Freelancer</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>May 2023 - Jul 2023</h4>
+                                <p>XLAB</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Feb 2023 - Abr 2023</h4>
                                 <p>Femsa Venture</p>
                             </div>
                         </div>
                         <div class="timeline-item">
                             <div class="timeline-dot"></div>
                             <div class="timeline-content">
-                                <h4>Ago - Dic 2022</h4>
+                                <h4>Jul 2022 - Dic 2022</h4>
                                 <p>Aimbridge Latam</p>
                             </div>
                         </div>
                         <div class="timeline-item">
                             <div class="timeline-dot"></div>
                             <div class="timeline-content">
-                                <h4>Ene - Dic 2022</h4>
+                                <h4>Ene 2022 - Dic 2022</h4>
                                 <p>EDUMAKERS</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Feb 2022 - Jun 2022</h4>
+                                <p>Arca Continental</p>
                             </div>
                         </div>
                     </div>
@@ -178,6 +198,22 @@
                         <div class="aspiration-box">
                             <div class="aspiration-icon">🧠</div>
                             <p>IA Ética y Humana</p>
+                        </div>
+                        <div class="aspiration-box">
+                            <div class="aspiration-icon">🌐</div>
+                            <p>Impacto Global</p>
+                        </div>
+                        <div class="aspiration-box">
+                            <div class="aspiration-icon">📊</div>
+                            <p>Decisiones Basadas en Datos</p>
+                        </div>
+                        <div class="aspiration-box">
+                            <div class="aspiration-icon">🎨</div>
+                            <p>Creatividad Aplicada</p>
+                        </div>
+                        <div class="aspiration-box">
+                            <div class="aspiration-icon">🔍</div>
+                            <p>Curiosidad Constante</p>
                         </div>
                     </div>
                 </div>
@@ -212,7 +248,36 @@
                         <p>"El éxito no se trata solo de logros personales, sino de crear un impacto positivo y duradero en los demás."</p>
                     </div>
                 </div>
-                
+
+                <div class="tab-content" id="estudios">
+                    <h3>Mis Estudios</h3>
+                    <p>Desde pequeño comencé mi formación en el Lycée Français de Santa Cruz, lo que me permitió no solo aprender un nuevo idioma y una cultura distinta a la de mi país, sino también expandir mis horizontes desde una edad temprana.</p>
+                    <p>Participé en diversos modelos de las Naciones Unidas, reforzando mi interés por comprender diferentes culturas y desarrollar una visión global.</p>
+                    <p>En 2017, tuve la oportunidad de vivir seis meses en Nueva York para perfeccionar mi inglés. Durante esa experiencia, compartí celebraciones y costumbres con personas de distintas partes del mundo, ampliando aún más mi perspectiva.</p>
+                    <p>En 2019, decidí estudiar en el Tecnológico de Monterrey, campus Monterrey, donde cursé la carrera de Ingeniería en Innovación y Desarrollo durante cuatro años.</p>
+                    <p>En 2022, obtuve varios certificados en programación, incluyendo uno de la Universidad de Michigan, y concluí un minor en Analítica de Datos y Herramientas de Inteligencia Artificial otorgado por el mismo Tecnológico.</p>
+                    <p>En 2025, fui invitado a participar en una clase de la Harvard Business School sobre Design Thinking, liderada por el profesor Stefan H. Thomke, donde analizamos el caso de innovación de la empresa IDEO.</p>
+                    <div class="education-icons">
+                        <div class="education-box">
+                            <div class="education-icon">🌍</div>
+                            <p>Visión global</p>
+                        </div>
+                        <div class="education-box">
+                            <div class="education-icon">🗣️</div>
+                            <p>Idiomas y culturas</p>
+                        </div>
+                        <div class="education-box">
+                            <div class="education-icon">🎓</div>
+                            <p>Educación de excelencia</p>
+                        </div>
+                        <div class="education-box">
+                            <div class="education-icon">💡</div>
+                            <p>Mentalidad innovadora</p>
+                        </div>
+                    </div>
+                    
+                </div>
+
                 <div class="tab-content" id="certificaciones">
                     <h3>Mis Certificaciones</h3>
                     <div class="certification-grid">
@@ -220,36 +285,49 @@
                             <div class="certification-logo">🏆</div>
                             <h4>Autoconocimiento y gestión</h4>
                             <p>Tec de Monterrey | 2025</p>
+                            <a href="https://api.badgr.io/public/assertions/TEYFLdNFTmSDYECZG_Am2w?identity__email=sebjimdrew%40exatec.tec.mx" target="_blank" class="cert-link">Ver certificado</a>
                         </div>
                         <div class="certification-card">
                             <div class="certification-logo">🏆</div>
                             <h4>Analítica de Datos y Herramientas de Inteligencia Artificial</h4>
                             <p>Tec de Monterrey | 2023</p>
+                            <a href="https://api.badgr.io/public/assertions/fdrVjaR0QuGkiLqeDcOP-Q?identity__email=A00829101%40exatec.tec.mx" target="_blank" class="cert-link">Ver certificado</a>
                         </div>
                         <div class="certification-card">
                             <div class="certification-logo">🏆</div>
                             <h4>Diseña nuevos modelos de negocio de base tecnológica</h4>
                             <p>Tec de Monterrey | 2023</p>
+                            <a href="https://api.badgr.io/public/assertions/CmGl3A8tSrOiFT0-jSrZqw?identity__email=a00829101%40exatec.tec.mx" target="_blank" class="cert-link">Ver certificado</a>
                         </div>
                         <div class="certification-card">
                             <div class="certification-logo">🏆</div>
                             <h4>Crea soluciones de base tecnológica</h4>
                             <p>Tec de Monterrey | 2023</p>
+                            <a href="https://api.badgr.io/public/assertions/SvWrR_0nQhGqJU_FOiqnOg?identity__email=a00829101%40exatec.tec.mx" target="_blank" class="cert-link">Ver certificado</a>
                         </div>
                         <div class="certification-card">
                             <div class="certification-logo">🏆</div>
                             <h4>Administra proyectos y programas de innovación</h4>
                             <p>Tec de Monterrey | 2023</p>
+                            <a href="https://api.badgr.io/public/assertions/aywnaF1UTaWyzdtm-1vqgg?identity__email=a00829101%40exatec.tec.mx" target="_blank" class="cert-link">Ver certificado</a>
+                        </div>
+                        <div class="certification-card">
+                            <div class="certification-logo">🏆</div>
+                            <h4>Regular Expressions in Python</h4>
+                            <p>Deprecated Guided Projects | 2022</p>
+                            <a href="https://coursera.org/share/005b4353dafec04eb4ac462c54f82172" target="_blank" class="cert-link">Ver certificado</a>
                         </div>
                         <div class="certification-card">
                             <div class="certification-logo">🏆</div>
                             <h4>Python Data Structure</h4>
                             <p>Michigan University | 2022</p>
+                            <a href="https://coursera.org/share/cb696e740820379ce5f840b71b1a91c5" target="_blank" class="cert-link">Ver certificado</a>
                         </div>
                         <div class="certification-card">
                             <div class="certification-logo">🏆</div>
                             <h4>Programming for everybody</h4>
                             <p>Michigan University | 2022</p>
+                            <a href="https://coursera.org/share/be73c13360778dbcfbc67a75be838c54" target="_blank" class="cert-link">Ver certificado</a>
                         </div>
                     </div>
                 </div>
@@ -263,28 +341,27 @@
         <div class="projects-container">
             <!-- Proyecto 1 -->
             <div class="project-card" data-project="proyecto1">
-                <img src="/api/placeholder/400/320" alt="Aimbridge Latam">
+                <img src="/projects/XLABP.jpeg" alt="Proyecto 1">
                 <div class="project-info">
-                    <h3>Aimbridge Latam</h3>
-                    <p>Breve descripción del proyecto. Haz clic para ver más detalles.</p>
+                    <h3>XLAB</h3>
+                    <p>Creación de un sistema de manejo de agua para casas</p>
                 </div>
             </div>
 
             <!-- Proyecto 2 -->
             <div class="project-card" data-project="proyecto2">
-                <img src="/api/placeholder/400/320" alt="Proyecto 2">
+                <img src="/projects/HealCycleP.png" alt="Proyecto 2">
                 <div class="project-info">
-                    <h3>EDUMAKERS</h3>
-                    <p>Breve descripción del proyecto. Haz clic para ver más detalles.</p>
+                    <h3>FEMSA VENTURE</h3>
+                    <p>Propuesta de startup para la re-utilizacion de plastico</p>
                 </div>
             </div>
-
             <!-- Proyecto 3 -->
             <div class="project-card" data-project="proyecto3">
                 <img src="/api/placeholder/400/320" alt="Proyecto 3">
                 <div class="project-info">
-                    <h3>ARCA CONTINENTAL</h3>
-                    <p>Breve descripción del proyecto. Haz clic para ver más detalles.</p>
+                    <h3>Aimbridge Latam</h3>
+                    <p>Mejora de forecasting para ocupación de cuartos.</p>
                 </div>
             </div>
 
@@ -292,28 +369,36 @@
             <div class="project-card" data-project="proyecto4">
                 <img src="/api/placeholder/400/320" alt="Proyecto 4">
                 <div class="project-info">
-                    <h3>FEMSA VENTURE</h3>
-                    <p>Breve descripción del proyecto. Haz clic para ver más detalles.</p>
+                    <h3>EDUMAKERS</h3>
+                    <p>Creacion y desarrollo de material educativo para personas con habilidades diferentes.</p>
                 </div>
             </div>
 
             <!-- Proyecto 5 -->
             <div class="project-card" data-project="proyecto5">
-                <img src="/api/placeholder/400/320" alt="Proyecto 5">
+                <img src="/projects/ArcacontinentalP.png" alt="Proyecto 5">
                 <div class="project-info">
-                    <h3>Proyecto 5</h3>
-                    <p>Breve descripción del proyecto. Haz clic para ver más detalles.</p>
+                    <h3>ARCA CONTINENTAL</h3>
+                    <p>Gamificación para mejora del personal con respecto a los KPI</p>
                 </div>
-            </div>
-
+            </div>  
             <!-- Proyecto 6 -->
             <div class="project-card" data-project="proyecto6">
-                <img src="/api/placeholder/400/320" alt="Proyecto 6">
+                <img src="/projects/Esencial.png" alt="Proyecto 6">
                 <div class="project-info">
-                    <h3>Proyecto 6</h3>
-                    <p>Breve descripción del proyecto. Haz clic para ver más detalles.</p>
+                    <h3>ESENTIAL</h3>
+                    <p>Innovación de producto a traves de una patente y requerimientos para su lanzamiento al mercado</p>
                 </div>
             </div>
+            <!-- Proyecto 7 -->
+            <div class="project-card" data-project="proyecto7">
+                <img src="/projects/StabilitP.png" alt="Proyecto 7">
+                <div class="project-info">
+                    <h3>Stabilit</h3>
+                    <p>Propuesta de mejora de innovacion en la fabricacion de muros para llegar a nuevos clientes</p>
+                </div>
+            </div>
+            
         </div>
     </section>
 
@@ -331,6 +416,10 @@
     </div>
 
     <script>
+        window.onbeforeunload = function () {
+            window.scrollTo(0, 0);
+        };
+
         // Cambio de imágenes en la sección de bienvenida
         const slides = document.querySelectorAll('.slideshow img');
         let currentSlide = 0;
@@ -395,57 +484,68 @@
         // Datos de los proyectos (simulados)
         const projectsData = {
             'proyecto1': {
-                title: 'Aimbridge Latam',
+                title: 'XLAB',
                 description: `
-                    <p>Este es un proyecto donde desarrollé [descripción detallada del proyecto]. El objetivo principal era [objetivo del proyecto] y se utilizaron tecnologías como [tecnologías utilizadas].</p>
-                    <img src="/api/placeholder/700/400" alt="Proyecto 1 Detalle">
-                    <p>Entre los desafíos superados durante este proyecto se incluyen [desafíos] y los resultados obtenidos fueron [resultados].</p>
-                    <p>El proyecto impactó positivamente en [impacto o beneficios] y aprendí [lecciones aprendidas].</p>
+                    <p>Este fue un proyecto donde junto a un equipo desarrollamos un sistema de gestion de agua inteligente para la casas con tinaco que ayudaria sobre todo en tiempos de sequia. El objetivo principal era crear un dispositivo con sensores de precion de agua y flujo para determinar el consumo promedio de agua en la casa y verificacion de fugas. Este utilizaria un sistema de IOT que proporcionaria toda la informacion a los inquilinos</p>
+                    <img src="projects/XLAB.png" alt="Proyecto 1 Detalle">
+                    <p>Entre los desafios superados durante este proyecto se invluyen:</p>
+                    <p>- La sincronizacion de los sensores de flujo y de precion para identificar fugas</p>
+                    <p>- Encontrar cual seria el nicho del mercado para este </p>
+                    <p>Los resultados obtenidos fueron buenos, pudismo terminar con un prototipo funcional, y que pudiese porporcionar la informacion necesaria al usuario.</p>
                 `
             },
             'proyecto2': {
-                title: 'Proyecto 2',
+                title: 'Femsa Venture',
                 description: `
-                    <p>Para este proyecto, trabajé en [descripción detallada del proyecto]. Mi papel fue [tu rol] y colaboré con [colaboradores si aplica].</p>
-                    <img src="/api/placeholder/700/400" alt="Proyecto 2 Detalle">
-                    <p>Implementamos [características o soluciones implementadas] lo que resultó en [resultados o beneficios].</p>
-                    <p>Este proyecto me permitió perfeccionar mis habilidades en [habilidades] y obtener experiencia valiosa en [área de experiencia].</p>
+                    <p>Este proyecto fue en conjunto con diferentes areas de negocios e ingenieria, y se queria lograr encontrar una area de oportunidad para la creacion de una startups. La idea final fue la utilizacion de reciduos plasticos no toxicos de los hospitales para la creacion de y venta de filamento 3D</p>
+                    <img src="projects/healcycle.png" alt="Proyecto 2 Detalle">
+                    <p>Implementamos una solucion a una area de oportunidad que muy poca gente ve como negocio, y creamos un producto que podria ser uno de los mejores por la relevancia a nivel economico y factores de tiempo para comenzar a tener estabilidad</p>
+                    <p>Los resultados obtenidos fueron buenos por el tipo de retroalimentacion que pudimo tener por parte de los stakeholder y tambien </p>
                 `
             },
             'proyecto3': {
-                title: 'Proyecto 3',
+                title: 'Aimbridge Latam',
                 description: `
-                    <p>En este proyecto innovador, desarrollamos [descripción del proyecto]. La idea surgió de [origen de la idea] y el proceso de desarrollo incluyó [etapas del proceso].</p>
-                    <img src="/api/placeholder/700/400" alt="Proyecto 3 Detalle">
-                    <p>Utilizamos metodologías como [metodologías] y herramientas como [herramientas].</p>
-                    <p>El proyecto fue reconocido por [reconocimientos si aplica] y actualmente [estado actual del proyecto].</p>
+                    <p>Este proyecto fue en conjunto con un equipo con el are TI de Aimbridge Latam, la cual nos dio el reto de mejorar su sistema de predicción para poder identificar la ocupación en los hoteles que maneja</p>
+                    <img src="projects/aimbridge.png" alt="Proyecto 3 Detalle">
+                    <p>Se hizo un analisis de la APIs que se podrian utilizar para poder mejorar el sistema de predicción, y aunque al inicio tuvimos complicaciones con algunas que comenzamos a utilizar, encontramos una que nos proporcionaba informacion clave para poder mejorar la predicción del sistema.</p>
+                    <p>El proyecto fue reconocido como uno de los mejores para la empresa no solo por los resultados pero por el empeño de cada integrante del equipo, la comunicacion constante con los supervisores del proyecto de Aimbridge</p>
                 `
             },
             'proyecto4': {
-                title: 'Proyecto 4',
+                title: 'Edumakers',
                 description: `
-                    <p>Este proyecto consistió en [descripción detallada]. La necesidad surgió cuando [contexto del problema] y propusimos [solución propuesta].</p>
+                    <p>Este proyecto consistió en diminuir la brecha de desigualdad para personas con discapacidad visual en el area de medica. En este caso una estudiante con discapacidad visual estaba cursando la materia de embriologia, y no podia seguir los ejemplos de los libros por lo que se decidio crear un sistema en 3D que ayudaria poder crear una orientacion del desarrollo del utero durante cada una de las etapas del embrion.</p>
                     <img src="/api/placeholder/700/400" alt="Proyecto 4 Detalle">
-                    <p>El desarrollo incluyó fases como [fases del desarrollo] y la implementación se realizó mediante [detalles de implementación].</p>
-                    <p>Los usuarios/clientes experimentaron [beneficios para usuarios] y el proyecto continúa [evolución o estado actual].</p>
+                    <p>El desarrollo incluyó fases como las del Design Tjinking para poder tener mayor precision de las metas a las que se querian llegar, durante las primeras semanas se hizo una investigacion sobre el desarrollo del embrion.</p>
+                    <p>El reto mas grande era recrear el diseño con la forma mas exacta posible y que se pueda identificar al momento del uso en la impresiones 3D. Para poder llegar a un MVP se hicieron varias revisiones con la estudiante que estaba cursando la materia para ver como sentia el material, y que es lo que persibia.</p>
                 `
             },
             'proyecto5': {
-                title: 'Proyecto 5',
+                title: 'Arca Continental',
                 description: `
-                    <p>Para este proyecto especializado, trabajamos en [descripción del proyecto]. El principal desafío fue [desafío] y lo abordamos mediante [enfoque o solución].</p>
-                    <img src="/api/placeholder/700/400" alt="Proyecto 5 Detalle">
-                    <p>Utilizamos tecnologías avanzadas como [tecnologías] y aplicamos conceptos de [conceptos o principios aplicados].</p>
-                    <p>Este proyecto destaca por [características destacables] y demostró [lecciones o conclusiones importantes].</p>
+                    <p>Este proyecto representó el primer gran reto de innovacion en una empresa real. Stabilit buscaba llamar la atencion de nuevos clientes, o un nuevo nicho de mercado que podria ayudarlos a tener una mayor cantidad de ventas sin cambiar mucho el proceso de fabricacion de los muros que hacen.</p>
+                    <img src="projects/Arcacontinental.png" alt="Proyecto 5 Detalle">
+                    <p>Por parte del equipo se hizo un diagnostico de los productos que vende Stabilit y cual es el nicho que ataca, para poder determminar cual seria la mejor ruta para llegar a nuevos clientes o nuevas formas de llamar mas la atencio del nicho de mercado actual.</p>
+                    <p>Al final se tomo la decision de ampliar el nicho de mercado actual y poder llamar mas la atencion por medio de la visualizacion del producto final por medio de aumentada</p>
                 `
             },
             'proyecto6': {
-                title: 'Proyecto 6',
+                title: 'Esential',
                 description: `
-                    <p>Este proyecto representó [descripción y significado del proyecto]. Surgió en respuesta a [necesidad o problema] y se desarrolló durante [período de tiempo].</p>
-                    <img src="/api/placeholder/700/400" alt="Proyecto 6 Detalle">
-                    <p>Mi contribución específica incluyó [tu contribución] y trabajé estrechamente con [colaboradores o stakeholders].</p>
-                    <p>Los resultados obtenidos superaron las expectativas en términos de [métricas o indicadores de éxito] y el proyecto ha servido como referencia para [impacto posterior].</p>
+                    <p>Para este proyecto especializado en patentes, se decidio desarrollar unos cubre bocas biodegradables, estos tendrían el mismo nivel de protección pero con el plus de que estarian hechos de bioplasticos.</p>
+                    <img src="projects/Esencialportada.png" alt="Proyecto 6 Detalle">
+                    <p>Utilizamos la patente de bioplaticos en base a citricos del tec de monterrey y aplicamos conceptos de innovacion para determinar en que producto usarlo, y las mejoras posibles del producto con la fabricacion de este nuevo material. </p>
+                    <p>Este proyecto destaca por crearse dentro de 5 semanas y ganar un premio de innovacion en el Tecnologico de Monterrey y demostró el sistema de innovacion disruptiva en un momento en el que el producto era de alto consumo ademas de la posterior fabricacion de productos post-pandemia.</p>
+                `
+            },
+            'proyecto7': {
+                title: 'Stabilit',
+                description: `
+                    <p>Este proyecto representó el primer gran reto de innovacion en una empresa real. Stabilit buscaba llamar la atencion de nuevos clientes, o un nuevo nicho de mercado que podria ayudarlos a tener una mayor cantidad de ventas sin cambiar mucho el proceso de fabricacion de los muros que hacen.</p>
+                    <img src="projects/Stabilit.png" alt="Proyecto 7 Detalle">
+                    <p>Por parte del equipo se hizo un diagnostico de los productos que vende Stabilit y cual es el nicho que ataca, para poder determminar cual seria la mejor ruta para llegar a nuevos clientes o nuevas formas de llamar mas la atencio del nicho de mercado actual.</p>
+                    <p>Al final se tomo la decision de ampliar el nicho de mercado actual y poder llamar mas la atencion por medio de la visualizacion del producto final por medio de aumentada</p>
                 `
             }
         };
@@ -476,18 +576,23 @@
 
         // Smooth scroll para los enlaces de navegación
         document.querySelectorAll('nav a').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
+        anchor.addEventListener('click', function(e) {
+            const targetId = this.getAttribute('href');
+
+            // Aplicar smooth scroll SOLO si el enlace empieza con "#"
+            if (targetId.startsWith('#')) {
                 e.preventDefault();
-                
-                const targetId = this.getAttribute('href');
                 const targetSection = document.querySelector(targetId);
-                
-                window.scrollTo({
-                    top: targetSection.offsetTop,
-                    behavior: 'smooth'
-                });
-            });
+                if (targetSection) {
+                    window.scrollTo({
+                        top: targetSection.offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            }
+            // Si NO empieza con "#" (ej. cambio de idioma), no hacer nada. Dejar que el navegador lo maneje.
         });
+    });
 
         // Ajustar navegación en resize
         window.addEventListener('resize', () => {

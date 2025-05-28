@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio Profesional</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">Portafolio</div>
+        <div class="language-selector">
+            <a href="index.html" class="language-link">Español</a>
+            <a href="english.html" class="language-link active">English</a>
+            <a href="francais.html" class="language-link">Français</a>
+        </div>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="nav-links" id="navLinks">
+            <a href="#home">Home</a>
+            <a href="#about">Yo</a>
+            <a href="#projects">Proyectos</a>
+        </div>
+    </nav>
+
+    <!-- Sección 1: Bienvenida -->
+    <section id="home">
+        <div class="slideshow">
+            <img src="Backgrounds/BGOF.jpeg" alt="Background 1" class="active">
+        </div>
+        <div class="overlay"></div>
+        <div class="welcome-content">
+            <h1>Sebastian Jimenez Drew</h1>
+            <h2>Innovation and Development Engineer</h2>        
+            <div class="cv-buttons">
+                <!-- <button class="cv-btn">CV en Español</button> -->
+                <button class="cv-btn">Resume in English</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección 2: Sobre mí -->
+    <section id="about">
+        <h2 class="section-title">About Me</h2>
+        
+        <div class="about-container">
+            <div class="about-left">
+                <div class="about-photo">
+                    <img src="/Backgrounds/sebas2.jpeg" alt="Sebastian Jimenez Drew">
+                </div>
+                <div class="profile-details">
+                    <div class="profile-item">
+                        <i class="profile-icon">📍</i>
+                        <span>Santa Cruz, Bolivia</span>
+                    </div>
+                    <div class="profile-item">
+                        <i class="profile-icon">🎓</i>
+                        <span>Innovation and Development Engineer</span>
+                    </div>
+                    <div class="profile-item">
+                        <i class="profile-icon">💻</i>
+                        <span>AI and Data Specialist</span>
+                    </div>
+                    <div class="profile-item">
+                        <i class="profile-icon">🌐</i>
+                        <span>Innovation + Technology + Impact</span>
+                    </div>
+                </div>
+                
+                <div class="skills-container">
+                    <h4>Skills</h4>
+                    <div class="skill-bars">
+                        <div class="skill">
+                            <span class="skill-name">Innovation</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 95%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">Data Science</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">Machine Learning</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">Leadership</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 88%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">Product Development</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 92%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Side: Tabs -->
+            <div class="about-right">
+                <div class="about-tabs">
+                    <button class="tab-btn active" data-tab="vida">My Life</button>
+                    <button class="tab-btn" data-tab="aspiraciones">Aspirations</button>
+                    <button class="tab-btn" data-tab="metas">Goals</button>
+                    <button class="tab-btn" data-tab="estudios">Education</button>
+                    <button class="tab-btn" data-tab="certificaciones">Certifications</button>
+                </div>
+
+                <div class="tab-content active" id="vida">
+                    <h3>My Story</h3>
+                    <p>Since I was a child, I loved imagining what the future would be like. That curiosity led me to study Innovation and Development Engineering, and later, to specialize in artificial intelligence and data science.</p>
+                    <p>Throughout my life, I’ve had the opportunity to live in different cities such as Monterrey and New York, which taught me to adapt, explore and appreciate new languages, cultures, and ways of thinking.</p>
+                    <p>I have worked as a Junior Consultant, Data Analyst, and Project Manager, leading both technical and social projects—such as EDUMAKERS, which aimed to create inclusive solutions for education. This blend of technology and purpose had a profound impact on me.</p>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Aug 2023 – Present</h4>
+                                <p>Global Consulting Group</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Jul - Dec 2024</h4>
+                                <p>Part time Freelancer</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>May 2023 – Jul 2023</h4>
+                                <p>XLAB</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Feb 2023 – Apr 2023</h4>
+                                <p>Femsa Venture</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Jul 2022 – Dec 2022</h4>
+                                <p>Aimbridge Latam</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Jan 2022 – Dec 2022</h4>
+                                <p>EDUMAKERS</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Feb 2022 – Jun 2022</h4>
+                                <p>Arca Continental</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="aspiraciones">
+                    <h3>My Aspirations</h3>
+                    <p>I aspire to use technology not only to solve problems but to <b>create opportunities where there were none.</b></p>
+                    <p>I’m excited about a future where artificial intelligence serves people, and I can contribute by designing solutions that integrate data, empathy, and creativity.</p>
+                    <p>I want to be part of high-impact global projects—whether in startups, consultancies, or as the founder of my own initiatives. I aim to keep learning constantly and become a reference at the intersection of innovation, data, and strategy.</p>
+
+                    <div class="aspirations-icons">
+                        <div class="aspiration-box">
+                            <div class="aspiration-icon">🌱</div>
+                            <p>Sustainable Innovation</p>
+                        </div>
+                        <div class="aspiration-box">
+                            <div class="aspiration-icon">🤝</div>
+                            <p>Collaborative Leadership</p>
+                        </div>
+                        <div class="aspiration-box">
+                            <div class="aspiration-icon">🚀</div>
+                            <p>Social Entrepreneurship</p>
+                        </div>
+                        <div class="aspiration-box">
+                            <div class="aspiration-icon">🧠</div>
+                            <p>Ethical and Human AI</p>
+                        </div>
+                        <div class="aspiration-box">
+                            <div class="aspiration-icon">🌐</div>
+                            <p>Global Impact</p>
+                        </div>
+                        <div class="aspiration-box">
+                            <div class="aspiration-icon">📊</div>
+                            <p>Data-Driven Decisions</p>
+                        </div>
+                        <div class="aspiration-box">
+                            <div class="aspiration-icon">🎨</div>
+                            <p>Applied Creativity</p>
+                        </div>
+                        <div class="aspiration-box">
+                            <div class="aspiration-icon">🔍</div>
+                            <p>Constant Curiosity</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="metas">
+                    <h3>My Goals</h3>
+                    <div class="goal-container">
+                        <div class="goal-icon">⏱️</div>
+                        <div class="goal-content">
+                            <h4>Short Term</h4>
+                            <p>Continue improving my technical skills in machine learning and digital product development while collaborating with companies that share my values.</p>
+                        </div>
+                    </div>
+                    <div class="goal-container">
+                        <div class="goal-icon">📅</div>
+                        <div class="goal-content">
+                            <h4>Medium Term</h4>
+                            <p>Lead multidisciplinary teams to develop solutions with significant social and economic impact.</p>
+                        </div>
+                    </div>
+                    <div class="goal-container">
+                        <div class="goal-icon">🔭</div>
+                        <div class="goal-content">
+                            <h4>Long Term</h4>
+                            <p>Create my own organization or an innovation fund that supports Latin American entrepreneurs in scaling purpose-driven ideas.</p>
+                        </div>
+                    </div>
+                    <div class="quote">
+                        <p>"Success is not just about personal achievements, but about creating a lasting and positive impact on others."</p>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="estudios">
+                    <h3>My Education</h3>
+                    <p>Since childhood, I began my academic journey at the Lycée Français in Santa Cruz. This experience not only allowed me to learn a new language and culture but also broadened my horizons from an early age.</p>
+                    <p>I participated in several Model United Nations events, reinforcing my interest in understanding different cultures and building a global perspective.</p>
+                    <p>In 2017, I had the opportunity to live in New York for six months to improve my English at Kaplan. During that time, I celebrated holidays and traditions with people from all over the world, further expanding my worldview.</p>
+                    <p>In 2019, I decided to study at Tecnológico de Monterrey, campus Monterrey, where I completed a four-year degree in Innovation and Development Engineering.</p>
+                    <p>In 2022, I earned several programming certificates, including one from the University of Michigan, and completed a minor in Data Analytics and Artificial Intelligence Tools from the same institution.</p>
+                    <p>In 2025, I was invited to attend a Harvard Business School class on Design Thinking, led by Professor Stefan H. Thomke, where we analyzed the innovation case of IDEO.</p>
+                    <div class="education-icons">
+                        <div class="education-box">
+                            <div class="education-icon">🌍</div>
+                            <p>Global Vision</p>
+                        </div>
+                        <div class="education-box">
+                            <div class="education-icon">🗣️</div>
+                            <p>Languages and Cultures</p>
+                        </div>
+                        <div class="education-box">
+                            <div class="education-icon">🎓</div>
+                            <p>Top-Quality Education</p>
+                        </div>
+                        <div class="education-box">
+                            <div class="education-icon">💡</div>
+                            <p>Innovative Mindset</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="certificaciones">
+                    <h3>My Certifications</h3>
+                    <div class="certification-grid">
+                        <div class="certification-card">
+                            <div class="certification-logo">🏆</div>
+                            <h4>Self-awareness and Management</h4>
+                            <p>Tec de Monterrey | 2025</p>
+                            <a href="https://api.badgr.io/public/assertions/TEYFLdNFTmSDYECZG_Am2w?identity__email=sebjimdrew%40exatec.tec.mx" target="_blank" class="cert-link">View Certificate</a>
+                        </div>
+                        <div class="certification-card">
+                            <div class="certification-logo">🏆</div>
+                            <h4>Data Analytics and Artificial Intelligence Tools</h4>
+                            <p>Tec de Monterrey | 2023</p>
+                            <a href="https://api.badgr.io/public/assertions/fdrVjaR0QuGkiLqeDcOP-Q?identity__email=A00829101%40exatec.tec.mx" target="_blank" class="cert-link">View Certificate</a>
+                        </div>
+                        <div class="certification-card">
+                            <div class="certification-logo">🏆</div>
+                            <h4>Design Technological Business Models</h4>
+                            <p>Tec de Monterrey | 2023</p>
+                            <a href="https://api.badgr.io/public/assertions/CmGl3A8tSrOiFT0-jSrZqw?identity__email=a00829101%40exatec.tec.mx" target="_blank" class="cert-link">View Certificate</a>
+                        </div>
+                        <div class="certification-card">
+                            <div class="certification-logo">🏆</div>
+                            <h4>Create Technological Solutions</h4>
+                            <p>Tec de Monterrey | 2023</p>
+                            <a href="https://api.badgr.io/public/assertions/SvWrR_0nQhGqJU_FOiqnOg?identity__email=a00829101%40exatec.tec.mx" target="_blank" class="cert-link">View Certificate</a>
+                        </div>
+                        <div class="certification-card">
+                            <div class="certification-logo">🏆</div>
+                            <h4>Manage Innovation Projects and Programs</h4>
+                            <p>Tec de Monterrey | 2023</p>
+                            <a href="https://api.badgr.io/public/assertions/aywnaF1UTaWyzdtm-1vqgg?identity__email=a00829101%40exatec.tec.mx" target="_blank" class="cert-link">View Certificate</a>
+                        </div>
+                        <div class="certification-card">
+                            <div class="certification-logo">🏆</div>
+                            <h4>Regular Expressions in Python</h4>
+                            <p>Deprecated Guided Projects | 2022</p>
+                            <a href="https://coursera.org/share/005b4353dafec04eb4ac462c54f82172" target="_blank" class="cert-link">View Certificate</a>
+                        </div>
+                        <div class="certification-card">
+                            <div class="certification-logo">🏆</div>
+                            <h4>Python Data Structures</h4>
+                            <p>University of Michigan | 2022</p>
+                            <a href="https://coursera.org/share/cb696e740820379ce5f840b71b1a91c5" target="_blank" class="cert-link">View Certificate</a>
+                        </div>
+                        <div class="certification-card">
+                            <div class="certification-logo">🏆</div>
+                            <h4>Programming for Everybody</h4>
+                            <p>University of Michigan | 2022</p>
+                            <a href="https://coursera.org/share/be73c13360778dbcfbc67a75be838c54" target="_blank" class="cert-link">View Certificate</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección 3: Proyectos -->
+    <section id="projects">
+        <h2 class="section-title">Mis Proyectos</h2>
+        <div class="projects-container">
+            <!-- Proyecto 1 -->
+            <div class="project-card" data-project="proyecto1">
+                <img src="/projects/XLABP.jpeg" alt="Proyecto 1">
+                <div class="project-info">
+                    <h3>XLAB</h3>
+                    <p>Creacion de un sistema de manejo de agua para casas</p>
+                </div>
+            </div>
+
+            <!-- Proyecto 2 -->
+            <div class="project-card" data-project="proyecto2">
+                <img src="/projects/HealCycleP.png" alt="Proyecto 2">
+                <div class="project-info">
+                    <h3>FEMSA VENTURE</h3>
+                    <p>Propuesta de startup para la re-utilizacion de plastico</p>
+                </div>
+            </div>
+            <!-- Proyecto 3 -->
+            <div class="project-card" data-project="proyecto3">
+                <img src="/api/placeholder/400/320" alt="Proyecto 3">
+                <div class="project-info">
+                    <h3>Aimbridge Latam</h3>
+                    <p>Mejora de forecasting para ocupacion de cuartos.</p>
+                </div>
+            </div>
+
+            <!-- Proyecto 4 -->
+            <div class="project-card" data-project="proyecto4">
+                <img src="/api/placeholder/400/320" alt="Proyecto 4">
+                <div class="project-info">
+                    <h3>EDUMAKERS</h3>
+                    <p>Creacion y desarrollo de material educativo para personas con habilidades diferentes.</p>
+                </div>
+            </div>
+
+            <!-- Proyecto 5 -->
+            <div class="project-card" data-project="proyecto5">
+                <img src="/projects/ArcacontinentalP.png" alt="Proyecto 5">
+                <div class="project-info">
+                    <h3>ARCA CONTINENTAL</h3>
+                    <p>Gamificacion para mejora del personal con respecto a los KPI</p>
+                </div>
+            </div>  
+            <!-- Proyecto 6 -->
+            <div class="project-card" data-project="proyecto6">
+                <img src="/projects/Esencial.png" alt="Proyecto 6">
+                <div class="project-info">
+                    <h3>ESENTIAL</h3>
+                    <p>Innovación de producto a traves de una patente y requerimientos para su lanzamiento al mercado</p>
+                </div>
+            </div>
+            <!-- Proyecto 7 -->
+            <div class="project-card" data-project="proyecto7">
+                <img src="/projects/StabilitP.png" alt="Proyecto 7">
+                <div class="project-info">
+                    <h3>Stabilit</h3>
+                    <p>Propuesta de mejora de innovacion en la fabricacion de muros para llegar a nuevos clientes</p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Modal para detalles de proyectos -->
+    <div class="modal" id="projectModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-header">
+                <h2 id="modalTitle">Título del Proyecto</h2>
+            </div>
+            <div class="modal-body" id="modalBody">
+                <!-- El contenido se llenará con JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Cambio de imágenes en la sección de bienvenida
+        const slides = document.querySelectorAll('.slideshow img');
+        let currentSlide = 0;
+
+        function nextSlide() {
+            slides[currentSlide].classList.remove('active');
+            currentSlide = (currentSlide + 1) % slides.length;
+            slides[currentSlide].classList.add('active');
+        }
+
+        // Cambiar imagen cada 5 segundos
+        setInterval(nextSlide, 5000);
+
+        // Función para las pestañas en la sección "Sobre mí"
+        const tabBtns = document.querySelectorAll('.tab-btn');
+        const tabContents = document.querySelectorAll('.tab-content');
+
+        tabBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remover clase active de todos los botones y contenidos
+                tabBtns.forEach(b => b.classList.remove('active'));
+                tabContents.forEach(c => c.classList.remove('active'));
+
+                // Agregar clase active al botón clickeado
+                btn.classList.add('active');
+
+                // Mostrar el contenido correspondiente
+                const tabId = btn.getAttribute('data-tab');
+                document.getElementById(tabId).classList.add('active');
+            });
+        });
+
+        // Funcionalidad para hamburger menu
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('navLinks');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            // Animar hamburger a X
+            const spans = hamburger.querySelectorAll('span');
+            spans.forEach(span => span.classList.toggle('active'));
+        });
+
+        // Cerrar menú al hacer clic en un enlace en móvil
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                if (window.innerWidth <= 768) {
+                    navLinks.classList.remove('active');
+                    const spans = hamburger.querySelectorAll('span');
+                    spans.forEach(span => span.classList.remove('active'));
+                }
+            });
+        });
+
+        // Funcionalidad para los proyectos y modal
+        const projectCards = document.querySelectorAll('.project-card');
+        const modal = document.getElementById('projectModal');
+        const modalTitle = document.getElementById('modalTitle');
+        const modalBody = document.getElementById('modalBody');
+        const closeModal = document.querySelector('.close-modal');
+
+        // Datos de los proyectos (simulados)
+        const projectsData = {
+            'proyecto1': {
+                title: 'XLAB',
+                description: `
+                    <p>This project involved developing, with a team, a smart water management system for homes with rooftop tanks, especially useful during droughts. The main objective was to create a device with water pressure and flow sensors to determine average water consumption and detect leaks. It would use an IoT system to provide all the data to the residents.</p>
+                    <img src="projects/XLAB.png" alt="Project 1 Detail">
+                    <p>Challenges overcome during this project included:</p>
+                    <p>- Synchronizing flow and pressure sensors to detect leaks</p>
+                    <p>- Identifying the appropriate market niche</p>
+                    <p>The results were positive: we finished with a functional prototype capable of providing users with the necessary information.</p>
+                `
+            },
+            'proyecto2': {
+                title: 'Femsa Venture',
+                description: `
+                    <p>This project was carried out in collaboration with different business and engineering teams, aiming to find an opportunity for launching a startup. The final idea involved using non-toxic plastic waste from hospitals to produce and sell 3D printing filament.</p>
+                    <img src="projects/healcycle.png" alt="Project 2 Detail">
+                    <p>We implemented a solution in an area of opportunity that few consider viable, and created a product with strong economic relevance and potential for early market stability.</p>
+                    <p>The results were promising, especially thanks to the valuable feedback we received from stakeholders.</p>
+                `
+            },
+            'proyecto3': {
+                title: 'Aimbridge Latam',
+                description: `
+                    <p>This project was developed in collaboration with the IT team at Aimbridge Latam, who challenged us to improve their prediction system for hotel occupancy across their properties.</p>
+                    <img src="projects/aimbridge.png" alt="Project 3 Detail">
+                    <p>We analyzed APIs that could be used to enhance the prediction system. Although we faced initial issues with some APIs, we eventually found one that provided key data to improve prediction accuracy.</p>
+                    <p>The project was recognized as one of the company's best—not only for the results, but also for the dedication of each team member and the consistent communication with Aimbridge’s project supervisors.</p>
+                `
+            },
+            'proyecto4': {
+                title: 'Edumakers',
+                description: `
+                    <p>This project aimed to reduce inequality for visually impaired individuals in the medical field. In this case, a blind student was taking an embryology class but couldn’t follow the textbook diagrams. We decided to create a 3D system to help visualize uterine development through each stage of the embryo.</p>
+                    <img src="/api/placeholder/700/400" alt="Project 4 Detail">
+                    <p>The development process followed Design Thinking stages to better define goals. During the first weeks, we researched embryonic development in depth.</p>
+                    <p>The biggest challenge was accurately recreating shapes so they could be identified by touch through 3D printing. To reach a viable MVP, we conducted multiple iterations with the student to assess her perception of the materials.</p>
+                `
+            },
+            'proyecto5': {
+                title: 'Arca Continental',
+                description: `
+                    <p>This project was my first major innovation challenge in a real company. Stabilit wanted to attract new customers or enter a new market segment, aiming to increase sales without significantly changing their wall manufacturing process.</p>
+                    <img src="projects/Arcacontinental.png" alt="Project 5 Detail">
+                    <p>Our team analyzed the products Stabilit offered and their current market niche to determine the best strategy for reaching new customers or enhancing engagement with their existing audience.</p>
+                    <p>In the end, we decided to expand the current market niche and increase visibility using augmented reality to showcase the final product.</p>
+                `
+            },
+            'proyecto6': {
+                title: 'Esential',
+                description: `
+                    <p>This project, focused on patent innovation, involved developing biodegradable face masks. They offered the same level of protection but were made from bioplastics.</p>
+                    <img src="projects/Esencialportada.png" alt="Project 6 Detail">
+                    <p>We used a Tec de Monterrey bioplastic patent based on citrus and applied innovation strategies to decide how to apply it to a product and what improvements could be made using this material.</p>
+                    <p>This project stood out for being completed in just five weeks, winning an innovation award at Tecnológico de Monterrey, and demonstrating a disruptive innovation model at a time when face masks were in high demand, including follow-up post-pandemic products.</p>
+                `
+            },
+            'proyecto7': {
+                title: 'Stabilit',
+                description: `
+                    <p>This project was my first major innovation challenge in a real company. Stabilit aimed to attract new customers or tap into a new market segment to increase sales without significantly altering their wall manufacturing process.</p>
+                    <img src="projects/Stabilit.png" alt="Project 7 Detail">
+                    <p>Our team diagnosed the products sold by Stabilit and the market they targeted to determine the most effective strategy for reaching new customers or improving engagement with their current market.</p>
+                    <p>Ultimately, the decision was made to expand the current market niche and enhance product visibility through augmented reality presentations of the final product.</p>
+                `
+            }
+
+        };
+
+        // Abrir modal al hacer clic en un proyecto
+        projectCards.forEach(card => {
+            card.addEventListener('click', () => {
+                const projectId = card.getAttribute('data-project');
+                const projectData = projectsData[projectId];
+                
+                modalTitle.textContent = projectData.title;
+                modalBody.innerHTML = projectData.description;
+                modal.style.display = 'flex';
+            });
+        });
+
+        // Cerrar modal
+        closeModal.addEventListener('click', () => {
+            modal.style.display = 'none';
+        });
+
+        // Cerrar modal al hacer clic fuera del contenido
+        window.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                modal.style.display = 'none';
+            }
+        });
+
+        // Smooth scroll para los enlaces de navegación
+        document.querySelectorAll('nav a').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            const targetId = this.getAttribute('href');
+
+            // Aplicar smooth scroll SOLO si el enlace empieza con "#"
+            if (targetId.startsWith('#')) {
+                e.preventDefault();
+                const targetSection = document.querySelector(targetId);
+                if (targetSection) {
+                    window.scrollTo({
+                        top: targetSection.offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            }
+            // Si NO empieza con "#" (ej. cambio de idioma), no hacer nada. Dejar que el navegador lo maneje.
+        });
+    });
+
+        // Ajustar navegación en resize
+        window.addEventListener('resize', () => {
+            if (window.innerWidth > 768) {
+                navLinks.classList.remove('active');
+                const spans = hamburger.querySelectorAll('span');
+                spans.forEach(span => span.classList.remove('active'));
+            }
+        });
+    </script>
+</body>
+</html>
